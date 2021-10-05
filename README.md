@@ -13,6 +13,8 @@ Steps to use:
 
 You can now run API requests.
 
+![Screenshot 2021-10-05 at 09 04 18](https://user-images.githubusercontent.com/30496/135944510-6ff65dd6-f23d-4cde-a0c0-5b17c674d1a5.png)
+
 Note that this config uses variables that rely on response data of previous requests. Example: to run "Create an Image" you will need to run the "List all Images" request first, as "Create an Image" uses a template ID picked up from "List all Images".
 
 Therefore, in order to use this config you will need to have some pre-existing data in your Bannerbear account.
