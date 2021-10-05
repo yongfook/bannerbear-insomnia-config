@@ -26,7 +26,7 @@ You are now ready to fire requests from Insomnia.
 
 You can now run API requests and should see the following selection of endpoints:
 
-![Screenshot 2021-10-05 at 09 04 18](https://user-images.githubusercontent.com/30496/135944510-6ff65dd6-f23d-4cde-a0c0-5b17c674d1a5.png)
+![Screenshot 2021-10-05 at 10 33 21](https://user-images.githubusercontent.com/30496/135951283-09bfead6-dbfe-43bc-8876-de4ee6292463.png)
 
 ## About Dynamic Variables
 
