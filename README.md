@@ -7,7 +7,9 @@ Steps to use:
 2. Create a file named `keys.env` - use the same template and add your own API key
 3. Install [Insomnia](https://insomnia.rest/)
 4. Install the dotenv plugin and follow the instructions in (2) [here](https://konghq.com/blog/avoiding-plain-text-passwords-insomnia/): `insomnia-plugin-dotenv`
-5. In Insomnia under "Manage Environments" ensure that the API Key is being correctly pulled from your `keys.env` file
+5. In Insomnia under *Manage Environments* ensure that the API Key is being correctly pulled from your `keys.env` file
+
+![Screenshot 2021-10-05 at 09 02 49](https://user-images.githubusercontent.com/30496/135944402-592bf522-b7ff-46ba-841d-89ea4b2586ca.png)
 
 You can now run API requests.
 
