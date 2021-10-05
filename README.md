@@ -1,6 +1,8 @@
 # bannerbear-insomnia-config
 Configuration file for Insomnia.rest API tool
 
+Not a Bannerbear user yet? [Sign Up Now](https://app.bannerbear.com/) 🐻
+
 ## Before installing
 
 This config is dependent on you having some test data in your Bannerbear account already. So for testing purposes via the Bannerbear web-based API console create:
