@@ -1,7 +1,17 @@
 # bannerbear-insomnia-config
 Configuration file for Insomnia.rest API tool
 
-Steps to use:
+## Before installing
+
+This config is dependent on you having some test data in your Bannerbear account already. So for testing purposes via the Bannerbear web-based API console create:
+
+1. At least one image template, and one image
+2. At least one template set, and one collection
+3. At least one video template, and one video
+
+You are now ready to fire requests from Insomnia.
+
+## How to Install
 
 1. Download or clone this repo locally
 2. Create a file named `keys.env` - use the same template and add your own API key
@@ -11,10 +21,10 @@ Steps to use:
 
 ![Screenshot 2021-10-05 at 09 02 49](https://user-images.githubusercontent.com/30496/135944402-592bf522-b7ff-46ba-841d-89ea4b2586ca.png)
 
-You can now run API requests.
+You can now run API requests and should see the following selection of endpoints:
 
 ![Screenshot 2021-10-05 at 09 04 18](https://user-images.githubusercontent.com/30496/135944510-6ff65dd6-f23d-4cde-a0c0-5b17c674d1a5.png)
 
-Note that this config uses variables that rely on response data of previous requests. Example: to run "Create an Image" you will need to run the "List all Images" request first, as "Create an Image" uses a template ID picked up from "List all Images".
+## About Dynamic Variables
 
-Therefore, in order to use this config you will need to have some pre-existing data in your Bannerbear account.
+There are no hard-coded object IDs in this config. This Insomnia setup uses cascading data from previous requests. So for example, in order to send the "Create an Image" request you will first need to send the "List all Images" request, in order to load variables into the Insomnia environment.
