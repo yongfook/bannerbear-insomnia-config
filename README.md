@@ -1,5 +1,5 @@
-# bannerbear-insomnia-config
-Configuration file for Insomnia.rest API tool
+# Bannerbear Insomnia Config
+Configuration file for [Insomnia.rest API tool](https://insomnia.rest/)
 
 Not a Bannerbear user yet? [Sign Up Now](https://app.bannerbear.com/) 🐻
 
@@ -18,7 +18,7 @@ You are now ready to fire requests from Insomnia.
 1. Download or clone this repo locally
 2. Create a file named `keys.env` - use the template `sample_env.env` and add your own API key
 3. Install [Insomnia](https://insomnia.rest/)
-4. Install the dotenv plugin and follow the instructions in (2) [here](https://konghq.com/blog/avoiding-plain-text-passwords-insomnia/): `insomnia-plugin-dotenv`
+4. Install the plugin named `insomnia-plugin-dotenv` and follow the instructions in (2) [here](https://konghq.com/blog/avoiding-plain-text-passwords-insomnia/)
 5. Create > Import from File
 6. In Insomnia under *Manage Environments* ensure that the API Key is being correctly pulled from your local `keys.env` file
 
